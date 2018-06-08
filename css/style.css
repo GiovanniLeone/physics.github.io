@@ -1,0 +1,125 @@
+
+
+nav {
+  background-color: black;
+  height: 7rem;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav span a:hover {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav span:first-child {
+  padding-right: 20rem;
+  font-size: 1.5rem;
+}
+
+.main_content {
+  background-color: green;
+  color: white;
+  padding-bottom: 4rem;
+}
+
+.main_content p {
+  font-size: 1.2rem;
+}
+
+.content1 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.content2 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.einstein {
+  width: 50%;
+}
+
+.curie {
+  width: 50%;
+}
+
+.bohr {
+  width: 50%;
+}
+
+.hawking {
+  width: 50%;
+}
+
+
+ .button-container h2 {
+  font-size: 1.7rem;
+  padding-bottom: 4rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  padding-bottom: 5rem;
+}
+
+
+.button {
+  text-align: center;
+  width: 50%;
+}
+
+.button a {
+  background-color: white;
+  padding: 2rem 2rem 2rem 2rem;
+  color: black;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.button a:hover {
+  background-color: blue;
+  color: white;
+  padding: 1.8rem 1.8rem 1.8rem 1.8rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  height: 15rem;
+}
+
+.contact p:first-child {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.address p:first-child {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.main_content img {
+  width: 350px;
+  height: 350px;
+}
